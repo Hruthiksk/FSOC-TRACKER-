@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-10-09T16:53:18.681Z",
+  "baseline": {
+    "scenario": "Clear-Sky Baseline",
+    "totalFrames": 301,
+    "meanErrPx": 34.05039830425172,
+    "rmsErrPx": 39.653133548705185,
+    "lossCount": 1,
+    "percentWithinLimit": 4.651162790697675,
+    "acquisitionTimeS": 1.0666666666666678
+  },
+  "disturbed": {
+    "scenario": "Combined Multi-Disturbance Stress Test",
+    "totalFrames": 301,
+    "meanErrPx": null,
+    "rmsErrPx": null,
+    "lossCount": 0,
+    "percentWithinLimit": null,
+    "acquisitionTimeS": null
+  },
+  "invariants": {
+    "baselineLocked": true,
+    "baselineZeroLoss": false,
+    "baselineErrorCompliant": false,
+    "disturbedErrorHigher": false
+  }
+}
